@@ -12,6 +12,7 @@ public class SingleThreadLazy<T> implements Lazy<T> {
         this.supplier = supplier;
     }
 
+    @Override
     public T get() {
         if (supplier != null) {
             result = supplier.get();

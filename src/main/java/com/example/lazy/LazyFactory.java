@@ -9,9 +9,9 @@ public class LazyFactory {
         return new SingleThreadLazy<>(supplier);
     }
     public static <T> Lazy<T> createMultiThreadLazy(Supplier<T> supplier) {
-
+        return null;
     }
     public static <T> Lazy<T> createLockFreeLazy(Supplier<T> supplier) {
-
+        return new LockFreeLazy<>(supplier);
     }
 }
