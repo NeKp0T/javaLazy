@@ -6,23 +6,21 @@ import java.util.function.Supplier;
 
 public class MultiThreadLazy<T> implements Lazy<T> {
 
-    private T result;
+    private volatile T result;
     private Supplier<T> supplier;
-    boolean gotResult;
 
-    MultiThreadLazy(@NotNull Supplier<T> supplier) throws IllegalArgumentException {
+    MultiThreadLazy(@NotNull Supplier<T> supplier) {
         result = (T) new Object();
-        this.supplier = supplier; // TODO mb synchronized?
+        this.supplier = supplier;
     }
 
     @Override
     public T get() {
-        if (!gotResult) {
+        if (supplier != null) {
             synchronized (result) {
-                if (!gotResult) {
-                    result = supplier.get();
+                if (supplier != null) {
                     supplier = null;
-                    gotResult = true;
+                    result = supplier.get();
                 }
             }
         }
