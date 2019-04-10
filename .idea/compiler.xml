@@ -6,6 +6,8 @@
       <module name="com.example.lazy.test" target="11" />
       <module name="com.example.philosophy.main" target="11" />
       <module name="com.example.philosophy.test" target="11" />
+      <module name="javaLazy.com.example.lazy.main" target="11" />
+      <module name="javaLazy.com.example.lazy.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

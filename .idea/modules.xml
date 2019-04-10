@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-267636487/com.example.lazy.iml" filepath="$PROJECT_DIR$/.idea/modules/-267636487/com.example.lazy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-267636487/com.example.lazy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-267636487/com.example.lazy.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-267636487/com.example.lazy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-267636487/com.example.lazy.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaLazy.com.example.lazy.iml" filepath="$PROJECT_DIR$/.idea/modules/javaLazy.com.example.lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaLazy.com.example.lazy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaLazy.com.example.lazy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaLazy.com.example.lazy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaLazy.com.example.lazy.test.iml" />
     </modules>
   </component>
 </project>
